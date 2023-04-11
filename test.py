@@ -9,4 +9,8 @@ def func_circum(r):
 	Ouput: 
 	Circumference of a circle with radius r
 	'''
-	return 2*np.pi*(r**2)
+	return 2*np.pi*r
+
+def func_area(r):
+	'''Calculate surface area of a circle with radius r'''
+	return np.pi*(r**2)
